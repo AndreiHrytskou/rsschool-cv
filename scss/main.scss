@@ -1,0 +1,74 @@
+.container{
+	width: 40%;
+	background: rgb(100, 100, 100);
+	padding: 0 40px;
+}
+.header{
+	&-logo{
+		text-align: center;
+		padding-top: 50px;
+		&-img{
+			border: 2px solid wheat;
+			border-radius: 50%;
+			overflow: hidden;
+			max-width: 250px;
+		}
+	}
+	&-name{
+		text-align: center;
+		color: black;
+		font-family: 'Rubik', sans-serif;
+	}
+	&-profession{
+		text-align: center;
+		font-family: 'Roboto', sans-serif;
+		color: white;
+		font-size: 20px;
+		text-transform: uppercase;
+		font-weight: 400;
+	}
+}
+.main{
+	&-summary{
+		margin-top: 150px;
+		&-title{
+			color: rgb(44, 44, 44);
+			font-family: 'Rubik', sans-serif;
+		}
+		&-description{
+		font-family: 'Roboto', sans-serif;
+		color: white;
+		}
+	}
+	&-language{
+		padding-top: 150px;
+		&-list-item{
+			color: white;
+			font-family: 'Rubik', sans-serif;
+			font-size: 18px;
+		}
+	}
+	&-contacts{
+		padding-top: 150px;
+		padding-bottom: 50px;
+		&-title{
+			color: rgb(44, 44, 44);
+			font-family: 'Rubik', sans-serif;
+			text-transform: uppercase;
+		}
+		&-list{
+			list-style: none;
+			padding-left: 0;
+			&-item{
+				font-family: 'Roboto', sans-serif;
+				color: white;
+				margin-bottom: 10px;	
+				a{
+					font-family: 'Roboto', sans-serif;
+					color: white;	
+					margin-bottom: 10px;	
+				}
+			}
+		}
+	}
+}

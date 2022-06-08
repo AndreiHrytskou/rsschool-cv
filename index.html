@@ -5,8 +5,135 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>HTML, CSS & Git Basics</title>
+	<link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-	
+	<div class="wrapper">
+		
+		<nav >
+			<ul class="menu">
+				<li><a href="#name">NAME</a></li>
+				<li><a href="#summary">SUMMARY</a></li>
+				<li><a href="#contact">MY CONTACTS</a></li>
+				<li><a href="#experience">EXPERIENCE</a></li>
+				<li><a href="#courses">COURSES</a></li>
+				<li><a href="#stack">TECH STACK</a></li>
+			</ul>
+		</nav>
+		<div class="contant-wrapper">
+		<div class="container">
+			<header class="header">
+				<div class="header-logo">
+					<img src="./assets/img/andrei.jpg" alt="avatar" class="header-logo-img">
+				</div>
+				<h1 class="header-name" id="name">Hrytskou Andrei</h1>
+				<h2 class="header-profession">Junior JavaScript Developer</h2>
+			</header>
+			<main class="main" id="summary">
+				<div class="main-summary">
+					<h2 class="main-summary-title">SUMMARY</h2>
+					<p class="main-summary-description">
+						I am a beginner JavaScript	developer. I can work well in a team and alone. My previous job was not related to it, but there I worked in a team and	even led a small one.
+					</p>
+				</div>
+				<div class="main-language">
+					<ul class="main-language-list">
+						<li class="main-language-list-item">RUSSIAN - NATIVE</li>
+						<li class="main-language-list-item">BELARUSIAN - NATIVE</li>
+						<li class="main-language-list-item">ENGLISH - A2</li>
+					</ul>
+				</div>
+				<div class="main-contacts" id="contact">
+					<h2 class="main-contacts-title">My Contacts</h2>
+					<ul class="main-contacts-list">
+						<li class="main-contacts-list-item">Vitebsk, Belarus</li>
+						<li class="main-contacts-list-item">
+						<a href="mailto:andreihrytskou@gmail.com">andreihrytskou@gmail.com</a>
+					</li>
+						<li class="main-contacts-list-item">
+							<a href="tel:+375(29)811-30-16">+375(29) 811-30-16</a>
+						</li>
+						<li class="main-contacts-list-item">
+							<a href="https://t.me/Andrei_Hrytskou" class="">Telegram:@Andrei_Hrytskou</a>
+						</li>
+						<li class="main-contacts-list-item">
+							<a href="skype:live:207b02c5b43d240a" class="">Link Skype</a>
+						</li>
+					</ul>
+				</div>
+			</main>
+		</div>
+		<div class="container-right">
+			<div class="main-right">
+				<div class="main-right-experience" id="experience">
+					<h2 class="main-right-experience-title">experience</h2>
+					<ul class="main-right-experience-list">
+						<li class="main-right-experience-list-item">12.2021-01.2022</li>
+						<li class="main-right-experience-list-item">IT-Academy</li>
+						<li class="main-right-experience-list-item">Project:<a href="https://andreihrytskou.github.io/JSgram/" class=""> JSgram</a></li>
+						<li class="main-right-experience-list-item">Project role: Frontend developer</li>
+						<li class="main-right-experience-list-item">Used tools: HTML, CSS, JavaScript</li>
+					</ul>
+					<ul class="main-right-experience-list">
+						<li class="main-right-experience-list-item">08.2021-09.2021</li>
+						<li class="main-right-experience-list-item">IT-Academy</li>
+						<li class="main-right-experience-list-item">Project:<a href="https://andreihrytskou.github.io/Anna-Mishka/" class=""> landing-page</a></li>
+						<li class="main-right-experience-list-item">Project role: Frontend developer.</li>
+						<li class="main-right-experience-list-item">Used tools: HTML, CSS</li>
+					</ul>
+				</div>
+				<div class="main-right-courses" id="courses">
+					<h2 class="main-right-courses-title">Courses</h2>
+					<div class="main-right-courses-item">
+						<h3 class="main-right-courses-item-title">Web application development with JavaScript</h3>
+						<p class="main-right-courses-item-description">09.2021-01.2022 Educational Center for Programming and High Tech (IT-Academy)</p>
+					</div>
+					<div class="main-right-courses-item">
+						<h3 class="main-right-courses-item-title">Web site development with HTML, CSS, JavaScript</h3>
+						<p class="main-right-courses-item-description">06.2021-09.2021Educational Center for	Programming and High Tech (IT-Academy)</p>
+					</div>
+				</div>
+				<div class="main-right-code">
+					<h2 class="main-right-code-title">code</h2>
+					<div class="main-right-code-wrapper">
+						<code>function explode(s) {
+						const array = s.split('');
+						let result = array.map(number => number.repeat(parseInt(number)));
+						return result.join('');
+						}</code>
+					</div>
+				</div>
+				<div class="main-right-stack" id="stack">
+					<h2 class="main-right-stack-title">TECH STACK</h2>
+					<ul class="main-right-stack-list">
+						<li class="main-right-stack-list-item">HTML</li>
+						<li class="main-right-stack-list-item">CSS(less, scss)</li>
+						<li class="main-right-stack-list-item">Flexbox, Grid</li>
+						<li class="main-right-stack-list-item">JavaScript</li>
+						<li class="main-right-stack-list-item">Git</li>
+						<li class="main-right-stack-list-item">DevTools</li>
+						<li class="main-right-stack-list-item">Wordpress</li>
+						<li class="main-right-stack-list-item">Wordpress ACF</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		</div>
+		<footer class="footer">
+			<nav >
+				<ul class="footer-menu">
+					<li><a href="#name">NAME</a></li>
+					<li><a href="#summary">SUMMARY</a></li>
+					<li><a href="#contact">MY CONTACTS</a></li>
+					<li><a href="#experience">EXPERIENCE</a></li>
+					<li><a href="#courses">COURSES</a></li>
+					<li><a href="#stack">TECH STACK</a></li>
+				</ul>
+			</nav>
+			<a href="https://rs.school/js-stage0/" class="footer-logo">
+				<img src="./assets/img/rs_school_js.svg" alt="rsschool" class="footer-logo-img">
+			</a>
+		</footer>
+	</div>
 </body>
 </html>
